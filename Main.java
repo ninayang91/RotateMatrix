@@ -24,7 +24,7 @@ public class Main {
     	}
 
 
-    }
+    }//time O(n^2) space o(1)
 
 
 
