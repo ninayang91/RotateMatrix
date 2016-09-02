@@ -12,6 +12,7 @@ public class Main {
     //draw a matrix, rotate it manually, find the relationship between i,j (it is easier using the outside layer)
     
     public static void rotate(int[][] matrix){
+        if(matrix==null)return;
     	int n=matrix[0].length;
     	for(int i=0;i<n/2;i++){//from outside layers to insides
     		for(int j=i;j<n-1-i;j++){
